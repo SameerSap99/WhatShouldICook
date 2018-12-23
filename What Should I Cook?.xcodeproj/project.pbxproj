@@ -12,6 +12,7 @@
 		42372B7021CAE285000ED9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42372B6E21CAE285000ED9DF /* Main.storyboard */; };
 		42372B7221CAE287000ED9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42372B7121CAE287000ED9DF /* Assets.xcassets */; };
 		42372B7521CAE287000ED9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42372B7321CAE287000ED9DF /* LaunchScreen.storyboard */; };
+		42372B7D21CB298C000ED9DF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42372B7C21CB298C000ED9DF /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		42372B7121CAE287000ED9DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42372B7421CAE287000ED9DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42372B7621CAE288000ED9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42372B7C21CB298C000ED9DF /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				42372B6A21CAE285000ED9DF /* AppDelegate.swift */,
 				42372B6C21CAE285000ED9DF /* ViewController.swift */,
 				42372B6E21CAE285000ED9DF /* Main.storyboard */,
+				42372B7C21CB298C000ED9DF /* CustomTabBarController.swift */,
 				42372B7121CAE287000ED9DF /* Assets.xcassets */,
 				42372B7321CAE287000ED9DF /* LaunchScreen.storyboard */,
 				42372B7621CAE288000ED9DF /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42372B7D21CB298C000ED9DF /* CustomTabBarController.swift in Sources */,
 				42372B6D21CAE285000ED9DF /* ViewController.swift in Sources */,
 				42372B6B21CAE285000ED9DF /* AppDelegate.swift in Sources */,
 			);
